@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Todos</title>
+</head>
+<body>
+  <h1 class="titlu">todos</h1>
+  <div class="todo-app">
+    <div class="header">
+      <button id="check-all">&#x25BC;</button>
+      <input type="text" id="todo-input" placeholder="Introduceți un todo...">
+    </div>
+    <ul id="todo-list"></ul>
+  </div>
+
+  <footer class="footer">
+    <span class="todo-count">0 items left</span>
+    <ul class="filters">
+      <li><a href="#/" id="filter-all" class="selected">All</a></li>
+      <li><a href="#/active" id="filter-active">Active</a></li>
+      <li><a href="#/completed" id="filter-completed">Completed</a></li>
+    </ul>
+    <button id="clear-completed">Clear completed</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
